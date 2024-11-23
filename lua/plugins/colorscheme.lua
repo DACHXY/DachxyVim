@@ -8,7 +8,7 @@ return {
         light = "latte",
         dark = "macchiato",
       },
-      transparent_background = false,
+      transparent_background = true,
       integrations = {
         aerial = true,
         alpha = true,
