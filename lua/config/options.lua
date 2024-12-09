@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 function GetAvailableWindowsShell()
-  local shellList = { "pwsh-preview", "pwsh", "powershell", "cmd" }
+  local shellList = { "nu", "pwsh-preview", "pwsh", "powershell", "cmd" }
   local length = #shellList
   for i = 1, length do
     local commandToCheck = "where " .. shellList[i]
